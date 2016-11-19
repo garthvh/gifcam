@@ -8,12 +8,12 @@ import random, string
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-button = 19 #Button GPIO Pin
+button = 12 #Button GPIO Pin
 
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 led_1 = 21 #Status LED GPIO Pin
 GPIO.setup(led_1, GPIO.OUT)
-led_2 = 12 #ON/OFF LED Pin
+led_2 = 19 #ON/OFF LED Pin
 GPIO.setup(led_2, GPIO.OUT)
 
 ########################
