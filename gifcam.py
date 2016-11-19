@@ -19,7 +19,7 @@ GPIO.setup(led_2, GPIO.OUT)
 ########################
 ### Variables Config ###
 ########################
-num_pics = 32 #Number of pictures to take in Gif
+num_pics = 8 #Number of pictures to take in Gif
 gif_delay = 15 #How much delay in between those pictures (in milliseconds)    
 
 camera = picamera.PiCamera()
